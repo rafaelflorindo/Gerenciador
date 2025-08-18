@@ -12,12 +12,11 @@ public class Login {
     public Login() {
     }
 
-    public Login(int id, String nome, String email, String senha, boolean ativo, String dataCadastro, String dataAtualizacao) {
-        this.id = id;
+    public Login(String nome, String email, String senha, String dataCadastro, String dataAtualizacao) {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
-        this.ativo = ativo;
+        this.ativo = true;
         this.dataCadastro = dataCadastro;
         this.dataAtualizacao = dataAtualizacao;
     }
