@@ -19,10 +19,6 @@ public class LoginDao {
         lista.add(login);
     }
 
-    public void listar(){
-
-    }
-
     public void buscarPorId(int id){
 
     }
