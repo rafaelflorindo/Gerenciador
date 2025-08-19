@@ -11,10 +11,13 @@ public class Main {
     static LoginDao loginDao = new LoginDao();
 
     public static void main(String[] args) {
-       /* FormCadastroLogin formCadastroLogin = new FormCadastroLogin();
-        formCadastroLogin.setVisible(true);*/
+        FormCadastroLogin formCadastroLogin = new FormCadastroLogin();
+        formCadastroLogin.setVisible(true);
 
-        Scanner scan = new Scanner(System.in);
+        /*FormCadastroTarefa formCadastroTarefa = new FormCadastroTarefa();
+        formCadastroTarefa.setVisible(true);*/
+
+       /* Scanner scan = new Scanner(System.in);
         loginDao.inserirLogin(new Login("Rafael", "rafael@teste.com", "senha123", "2025-07-01",""));
         loginDao.inserirLogin(new Login("Rafael Silva", "rafael.silva@gmail.com", "Raf@12345", "2025-07-01", ""));
         loginDao.inserirLogin(new Login("Camila Pereira", "camila.pereira@hotmail.com", "Camila!2025", "2025-07-02", ""));
@@ -94,5 +97,7 @@ public class Main {
                     break;
             }
         }while (opcao != 0);
+
+        */
     }
 }
