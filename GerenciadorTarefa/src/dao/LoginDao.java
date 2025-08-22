@@ -1,7 +1,6 @@
 package dao;
 
 import model.Login;
-
 import java.util.ArrayList;
 
 public class LoginDao {
